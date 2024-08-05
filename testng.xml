@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="TestNgTopics.C1" />
+			<class name="TestNgTopics.C2" />
+			<class name="TestNgTopics.C3" />
+		</classes>
+	</test> <!--
+	OrangeHRM -->
+	<test name="Test2">
+		<classes>
+			<class name="TestNgTopics.C2" />
+			<class name="TestNgTopics.C1" />
+			<class name="TestNgTopics.C3" />
+		</classes>
+	</test> <!--
+	OrangeHRM -->
+</suite> <!--
+Suite -->
